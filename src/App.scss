@@ -1,0 +1,80 @@
+.stockItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  // border-radius: 5px;
+  margin: 25px auto;
+  position: relative;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(#000, 0);
+  // border: 1px solid #c7c7c7;
+  .stockInner {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    // align-items: space-around;
+    flex: 1;
+    h4 {
+      font-size: 20px;
+      color: #0b0b0b;
+      margin-bottom: 0px;
+    }
+    span {
+      font-size: 12px;
+    }
+    .red {
+      color: #ba0e0e;
+    }
+  }
+  h4,
+  span {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  .stockType,
+  .stockNumber {
+    .stockTypeTitle {
+      white-space: nowrap;
+      font-size: 8px;
+      text-overflow: ellipsis;
+    }
+  }
+  .stockCateGory {
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    display: block;
+    width: auto;
+    background: #e9e9e9;
+    min-width: 50px;
+    border-radius: 5px;
+    font-size: 7px;
+  }
+}
+.stockColumn {
+  h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .stockNumber {
+    .Unchanged {
+      color: #323232;
+    }
+    .Up,
+    .LimitUp {
+      color: #8a0505;
+    }
+    .Down,
+    .LimitDown {
+      color: #035c03;
+    }
+  }
+}
+.App {
+  background-color: #dfdfdf;
+}
+.appColumnWrapper {
+  background-color: #bfbfbf;
+}
