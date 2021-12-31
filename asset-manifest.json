@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nealStock/static/css/main.d752d08e.chunk.css",
-    "main.js": "/nealStock/static/js/main.a1223345.chunk.js",
-    "main.js.map": "/nealStock/static/js/main.a1223345.chunk.js.map",
+    "main.js": "/nealStock/static/js/main.af66621b.chunk.js",
+    "main.js.map": "/nealStock/static/js/main.af66621b.chunk.js.map",
     "runtime-main.js": "/nealStock/static/js/runtime-main.9cd71488.js",
     "runtime-main.js.map": "/nealStock/static/js/runtime-main.9cd71488.js.map",
     "static/css/2.4659568d.chunk.css": "/nealStock/static/css/2.4659568d.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.4659568d.chunk.css",
     "static/js/2.4a160ac0.chunk.js",
     "static/css/main.d752d08e.chunk.css",
-    "static/js/main.a1223345.chunk.js"
+    "static/js/main.af66621b.chunk.js"
   ]
 }
